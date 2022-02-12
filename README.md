@@ -94,7 +94,7 @@ $ docker-compose up
     <img src="ref/run-debug.png" style="width:60%;"></img>
 </div>
 
-### 4. Create docs
+### 4. Create Docs
 
 ```
 $ swag
@@ -106,9 +106,9 @@ $ swag init
 ## Build deployment image
 
 ```
-$ docker build -t rbac-go:latest .
+$ docker build -t account-jwt:latest .
 
-$ docker run -p 8000:8000 --env-file .env rbac-go:latest
+$ docker run -p 8000:8000 --env-file .env account-jwt:latest
 ```
 
 ## Reference
